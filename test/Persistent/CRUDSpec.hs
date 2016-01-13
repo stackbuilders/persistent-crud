@@ -1,9 +1,9 @@
 module Persistent.CRUDSpec where
 
+import           Database.Persist
+import           Database.Persist.Sql
 import           Persistent.CRUD
 import           Test.Hspec
-import Database.Persist
-import Database.Persist.Sql
 
 spec :: Spec
 spec =
